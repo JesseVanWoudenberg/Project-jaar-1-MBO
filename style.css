@@ -1,0 +1,148 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: #1e656d;
+}
+
+.klantIdHeader {
+    margin: 15px 0px 0px 0px;
+    color:  #1e656d;
+    text-align: center;
+}
+
+.terugLink {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.terugLink a {
+    text-decoration: none;
+    color:  #1e656d;
+    font-weight: bold;
+    margin: 0px auto 0px auto;
+}
+
+.bodyClass {
+    background-color: #f1f3ce;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 175px 0px 0px 0px;
+    color:  #1e656d;
+    text-align: center;
+}
+
+.subLogo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 15px 0px 0px 0px;
+    color:  #1e656d;
+    text-align: center;
+}
+
+.autoLinks {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #1e656d;
+}
+
+.autoLinks li{
+    list-style: none;
+    padding: 17px;
+}
+
+.autoLinks li a {
+    text-decoration: none;
+    color:  #f1f3ce;
+    font-size: 20px;
+}
+
+.selectionLinks {
+    margin: 100px 0px 0px 0px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.selectionLinks li {
+    list-style: none;
+    padding: 17px;
+}
+
+.selectionLinks li a {
+    text-decoration: none;
+    color: #1e656d;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.createKlantForm {
+    margin: 0 auto ;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    padding: 40px;
+}
+
+.createKlantForm input {
+    padding: 3px;
+}
+
+.createKlantForm input[type=submit] {
+    margin-top: 10px;
+}
+
+.content-table {
+    margin: 25px auto 0px auto;
+    border: 2px solid #1e656d;
+}
+
+.content-table th {
+    text-align: center;
+    width: 130px;
+    padding: 5px;
+}
+
+.content-table td {
+    text-align: center;
+    width: 130px;
+    padding: 5px;
+}
+
+.headerMainPage {
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    background-color: #1e656d;
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerMainPage li {
+    list-style: none;
+    color: #f1f3ce;
+    width: 325px;
+    text-align: center;
+}
+
+.headerMainPage li a {
+    text-decoration: none;
+    color:  #f1f3ce;
+    width: 20%;
+    height: 50px;
+}
+
+.headerMainPage li i {
+    background-color: #f1f3ce;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.createKlantForm select {
+    padding: 5px 25px 5px 25px;
+    font-size: 13px;
+}
